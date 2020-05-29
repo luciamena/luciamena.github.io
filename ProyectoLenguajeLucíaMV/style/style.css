@@ -45,7 +45,9 @@ main{
     margin-right: 5px;
     overflow: hidden;
 }
-
+main{
+    width: 100%;
+}
 
 /*TEXTOS*/
 #titulo{
@@ -415,6 +417,9 @@ section .fotos{
     }
     #mundo{
     width: 100%;
+    }
+    fieldset{
+        margin-right: 5%;
     }
 }
 
