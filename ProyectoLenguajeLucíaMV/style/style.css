@@ -5,7 +5,6 @@
     padding: 0px ;
     font-family: 'Indie Flower', serif;
     font-family: 'Poppins', serif;
-    
 }
 
 main{
@@ -378,6 +377,10 @@ section .fotos{
     #navegador ul li a{
         opacity: 1;
         color: #9fa3a7;
+    }
+    #navegador ul li a:hover{
+        color: #9fa3a7;
+        font-weight: bold;
     }
     #titulo{
         text-align: center;
