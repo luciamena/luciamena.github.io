@@ -397,7 +397,7 @@ section .fotos{
         margin-right: 5%;
     }
     input[type=text] {
-        width: 60%;
+        width: 70%;
         box-sizing: border-box;
     }
 }
