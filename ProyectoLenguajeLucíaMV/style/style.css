@@ -1,5 +1,3 @@
-
-
 /*ESTRUCTURA*/
 
 *{
@@ -57,7 +55,7 @@ main{
 
     text-align: right;
     position: relative;
-    color: #FF6666;/*	#FF9999; /*#900C3F;*/
+    color: #FF6666;
     font-size: 70px;
     text-shadow: 2px 2px 2px black;
 }
@@ -79,6 +77,13 @@ h2{
 h3{
     font-family: 'Poppins', serif;
     padding: 2%;
+}
+
+#caracteres{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', serif;
+    
 }
 
 .STitulo{
@@ -382,9 +387,6 @@ section .fotos{
     }
     #mundo{
     width: 70%;
-    }
-    fieldset{
-        width: 100%;
     }
     
 }
