@@ -393,6 +393,9 @@ section .fotos{
     #mundo{
     width: 70%;
     }
+    fieldset{
+        margin-right: 5%;
+    }
     
 }
 @media (max-width:900px){
@@ -440,6 +443,9 @@ section .fotos{
         text-align: center;
         font-size: 40px;
     }
+    fieldset{
+        margin-right: 5%;
+    }
     
 }
 
@@ -448,6 +454,9 @@ section .fotos{
     h2{
         font-size: 20px;
         }
+    fieldset{
+        margin-right: 5%;
+    }
 }
 
 
@@ -466,6 +475,9 @@ section .fotos{
         width: 250px;
         height: 150px;
     }
+    fieldset{
+        margin-right: 5%;
+    }
     
 }
-}
+
