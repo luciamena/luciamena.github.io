@@ -280,6 +280,7 @@ textarea {
     background: gray;
     color: white;
     font-weight: bold;
+    text-align: center;
     font-size: 12px;
     border: none;
 }
@@ -381,6 +382,9 @@ section .fotos{
     }
     #mundo{
     width: 70%;
+    }
+    fieldset{
+        width: 100%;
     }
     
 }
