@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Una guía interactiva de primeros pasos para Brackets.">
+        <title>Un viaje por el mundo</title>
+        <script src="js/scriptPrincipal.js"></script>
+        <script src="js/formulariojs.js"></script>
+        <link rel="stylesheet" href="style/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Poppins|Indie Flower&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+    </head>
+    <body>
+        <header>
+            <nav id="navegador">
+                <img src='img/menu.png' alt='menu' id="menu"/>
+            <img src="img/1312343.png" alt="dianoche" id="color"/>
+            
+                <ul>
+                    <li><a class="nave" href="index.html">Indice</a></li>
+                    <li><a class="nave" href="continentes.html">Destinos</a></li>
+                    <li><a class="nave" href="tips.html">Tips</a></li>
+                    <li><a class="active nave" href="formularios.html">Inscribirse</a>   </li>
+                </ul>
+            </nav>
+        </header>
+        <a id="linkBanner">
+            <div id="banner">
+                <h1 id="titulo"></h1>
+            </div>
+        </a>
+        <main>
+            <aside>
+                <div id="imag">
+                    <h2 id="conti">Destinos</h2>
+                    
+                    <p class="oculto" id="pOce">Oceanía</p>
+                    <a href="continentes.html#oceCont">
+                        <img src='continentes/oceania.png' alt='Oceania' class='continentes' id="oceania"/>
+                    </a>
+                    
+                    <p class="oculto"  id="pAsi">Asia</p>
+                    <a href="continentes.html#asiCont">
+                    <img src='continentes/asia.png' alt='Asia' class='continentes' id="asia"/>
+                    </a>
+                    
+                    <p class="oculto"  id="pEu">Europa</p>
+                    <a href="continentes.html#euCont">
+                        <img src='continentes/europa.png' alt='Europa' class='continentes' id="europa"/>
+                    </a>
+                              
+                    <p class="oculto" id="pAfri">África</p>
+                    <a href="continentes.html#afriCont">
+                        <img src='continentes/0africa.png' alt='Africa' class='continentes' id="africa"/>
+                    </a>
+                    
+                    <p class="oculto"  id="pAme">América</p>
+                    <a href="continentes.html#ameCont">
+                        <img src='continentes/america.png' alt='America' class='continentes' id="america"/>
+                    </a>
+                    
+                </div>
+            </aside>
+            <section>
+                <h2 class="STitulo">Inscribirse</h2>
+                <form id="miformulario">
+                    <div>
+                        <br>
+                    <fieldset>
+                        
+                        
+                        <legend>Datos personales</legend>
+                            <label>Nombre*</label>
+                            <br>
+                            <input  type="text" name="nombre" > 
+                            <br>
+				            <label>Apellidos</label>
+                            <br>
+                            <input  type="text" name="apellidos"> 
+                            <br>
+				            <label>Edad*</label>
+                            <br>
+                            <input  type="text" name="edad"> 
+                            <br>
+                            <label>Género*</label><br>
+                            <input type="radio" name="sexo" value="hombre" /><label>Masculino</label>
+                            <input type="radio" name="sexo" value="mujer"/><label>Femenino</label>
+                            <br>
+                            <br> 
+                    </fieldset>
+                    <br>
+                    <fieldset id="generales">
+                      
+                        <legend>Datos Generales</legend>
+                        <label>Comunidad Autónoma*</label>
+                        <select name="autonoma" id='autonoma'>
+                            <option value=''>Selecciona</option>
+                            <option value='1'>Andalucía</option>
+                            <option value='2'>Aragón</option>
+                            <option value='3'>Canarias</option>
+                            <option value='4'>Cantabria</option>
+                            <option value='5'>Castilla La Mancha</option>
+                            <option value='6'>Castilla y León</option>
+                            <option value='7'>Cataluña</option>
+                            <option value='8'>Ceuta</option>
+                            <option value='9'>Comunidad de Madrid</option>
+                            <option value='10'>Comunidad Foral de Navarra</option>
+                            <option value='11'>Comunidad Valenciana</option>
+                            <option value='12'>Extremadura</option>
+                            <option value='13'>Galicia</option>
+                            <option value='14'>Islas Baleares</option>
+                            <option value='15'>La Rioja</option>
+                            <option value='16'>Melilla</option>
+                            <option value='17'>País Vasco</option>
+                            <option value='18'>Principado de Asturias</option>
+                            <option value='19'>Región de Murcia</option>
+                        </select>
+                        <br> 
+                        <br>
+                        <label>Provincia*</label>
+                        <select name="provincia" id='provincia'>
+                            <option value=''></option>
+                        </select>
+                        <br> 
+                        <br> 
+                    </fieldset>
+                        </div>
+                    <div>
+                        <br>
+                    <div>
+                        <input type="checkbox" name="aceptar" id="recibir"><label>Me gustaría recibir novedades</label><br>
+                    </div>
+                    
+                    <fieldset id="notificaciones">
+                        <legend>Recibir Notificaciones</legend>
+                        <label>E-mail* </label>
+                        <input type="text" id="emial" name="email" />
+                        <br> 
+                        <br>
+                        <label>¿Cada cuanto tiempo?*</label><br>
+                            <input type="radio" name="publicidad" value="diario" /><label>Diario</label>
+                            <input type="radio" name="publicidad" value="semanal"/><label>Semanal</label>
+                            <input type="radio" name="publicidad" value="mensual"/><label>Mensual</label>
+                        <input type="radio" name="publicidad" value="anual"/><label>Anual</label>
+                            <br> 
+                        <br> 
+                    </fieldset>
+                        <br>
+                        <input type="submit" class="bttn" id="submit" value="ENVIAR" />
+                        </div>
+                    
+			     </form>
+                
+            </section>
+            
+        
+        </main>
+        <footer id="footer">
+            <div id="msgfooter">
+                <p class="foot">Proyecto final - Lenguaje de Marcas</p>
+                <p class="foot">Lucía Mena Vázquez</p>
+            </div>
+            
+        </footer>
+        
+    </body>
+</html>
