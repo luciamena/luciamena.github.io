@@ -394,7 +394,11 @@ section .fotos{
     width: 70%;
     }
     fieldset{
-        margin-right: 10%;
+        margin-right: 5%;
+    }
+    input[type=text] {
+        width: 60%;
+        box-sizing: border-box;
     }
 }
 @media (max-width:900px){
